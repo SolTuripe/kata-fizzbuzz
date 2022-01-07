@@ -12,7 +12,6 @@ test('when the number is a multiple of 5 it should return "Buzz"', () => {
   expect(fizzBuzz(10)).toBe("Buzz");
   expect(fizzBuzz(55)).toBe("Buzz");
   expect(fizzBuzz(100)).toBe("Buzz");
-  
 });
 
 test('when the number is a multiple of 3 it should return "Fizz"', () => {
